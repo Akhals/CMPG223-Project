@@ -37,20 +37,22 @@ namespace InventoryManagementSystemCMPG223
                 adapter = new SqlDataAdapter();
                 conn.Open();
 
-                //GET PRODUCT DETAILS FROM THE FORM
+                // Get product details from the form
                 int id = Int32.Parse(ProductId.Text);
-                string name = Name.Text, description = Description.Text;
-                double price = Double.Parse(Price.Text), size = Double.Parse(Size.Text);
-                
+                string name = Name.Text;
+                string description = Descriptions.Text; // Access the Description textbox value
+                double price = Double.Parse(Price.Text);
+                double size = Double.Parse(Size.Text);
+
                 cmd = new SqlCommand(query, conn);
 
-                //parameters
+                // Parameters
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.Parameters.AddWithValue("@name", name);
                 cmd.Parameters.AddWithValue("@description", description);
+                // Add description parameter
                 cmd.Parameters.AddWithValue("@size", size);
                 cmd.Parameters.AddWithValue("@price", price);
-
 
                 adapter.UpdateCommand = cmd;
 
@@ -63,7 +65,6 @@ namespace InventoryManagementSystemCMPG223
                 {
                     FeedbackLbl.Text = $"Failed to update {keyword}";
                 }
-
             }
             catch (SqlException ex)
             {
@@ -78,12 +79,5 @@ namespace InventoryManagementSystemCMPG223
                 conn.Close();
             }
         }
-
-        protected void UpdateProductBtn_Click(object sender, EventArgs e)
-        {
-            string keyword = ProductId.Text;
-            string query = "Update producttable set id=@id,name=@name,description=@description,price=@price,size=@size where id=@id";
-            UpdateAProduct(query, keyword);
-        }
-    }
+    }   
 }

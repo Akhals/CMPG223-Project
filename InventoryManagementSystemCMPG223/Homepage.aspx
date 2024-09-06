@@ -47,7 +47,7 @@
                             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Customers.aspx">Customers</asp:HyperLink></div>
                         <div class="div-item"><span class="material-icons">inventory</span><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Products.aspx">Inventory</asp:HyperLink></div>
                         <div class="div-item"><span class="material-icons">local_shipping</span>
-                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Products.aspx">Orders</asp:HyperLink></div>
+                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Orders.aspx">Orders</asp:HyperLink></div>
                         <div class="div-item"><span class="material-icons">discount</span>
                             <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Products.aspx">Specials</asp:HyperLink></div>
                         <div class="div-item"><span class="material-icons">business</span>

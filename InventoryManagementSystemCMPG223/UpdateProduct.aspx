@@ -22,7 +22,7 @@
                     <asp:TextBox ID="Name" runat="server" placeholder="item name"></asp:TextBox><br />
                     <asp:TextBox ID="Price" runat="server" placeholder="item price"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="Description" runat="server" placeholder="item description"></asp:TextBox><br />
+                    <asp:TextBox ID="Descriptions" runat="server" placeholder="item description"></asp:TextBox><br />
                     <asp:TextBox ID="Size" runat="server" placeholder="item size"></asp:TextBox><br />
                     <asp:Button ID="AddProductBtn" runat="server" Text="Update Lipstick" OnClick="UpdateProductBtn_Click" />
                     <br />

@@ -73,16 +73,20 @@
       <DependentUpon>InventoryManagementSystemDB.mdf</DependentUpon>
     </Content>
     <Content Include="CreateCustomer.aspx" />
+    <Content Include="CreateOrders.aspx" />
     <Content Include="CreateProduct.aspx" />
     <Content Include="Customers.aspx" />
     <Content Include="DeleteCustomer.aspx" />
+    <Content Include="DeleteOrders.aspx" />
     <Content Include="DeleteProduct.aspx" />
     <Content Include="Homepage.aspx" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="Orders.aspx" />
     <Content Include="Products.aspx" />
     <Content Include="ProductStyles.css" />
     <Content Include="SignUpPage.aspx" />
     <Content Include="UpdateCustomer.aspx" />
+    <Content Include="UpdateOrders.aspx" />
     <Content Include="UpdateProduct.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -93,6 +97,13 @@
     </Compile>
     <Compile Include="CreateCustomer.aspx.designer.cs">
       <DependentUpon>CreateCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateOrders.aspx.cs">
+      <DependentUpon>CreateOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateOrders.aspx.designer.cs">
+      <DependentUpon>CreateOrders.aspx</DependentUpon>
     </Compile>
     <Compile Include="CreateProduct.aspx.cs">
       <DependentUpon>CreateProduct.aspx</DependentUpon>
@@ -115,6 +126,13 @@
     <Compile Include="DeleteCustomer.aspx.designer.cs">
       <DependentUpon>DeleteCustomer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeleteOrders.aspx.cs">
+      <DependentUpon>DeleteOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteOrders.aspx.designer.cs">
+      <DependentUpon>DeleteOrders.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DeleteProduct.aspx.cs">
       <DependentUpon>DeleteProduct.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -135,6 +153,13 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Orders.aspx.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Orders.aspx.designer.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
     </Compile>
     <Compile Include="Products.aspx.cs">
       <DependentUpon>Products.aspx</DependentUpon>
@@ -158,6 +183,13 @@
     <Compile Include="UpdateCustomer.aspx.designer.cs">
       <DependentUpon>UpdateCustomer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UpdateOrders.aspx.cs">
+      <DependentUpon>UpdateOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateOrders.aspx.designer.cs">
+      <DependentUpon>UpdateOrders.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UpdateProduct.aspx.cs">
       <DependentUpon>UpdateProduct.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -174,6 +206,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Browsers\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -33,13 +33,13 @@ namespace InventoryManagementSystemCMPG223
         protected global::System.Web.UI.WebControls.TextBox CustomerIdTB;
 
         /// <summary>
-        /// DeleteCustomerBtn control.
+        /// DeleteOrderBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DeleteCustomerBtn;
+        protected global::System.Web.UI.WebControls.Button DeleteOrderBtn;
 
         /// <summary>
         /// FeedbackLbl control.

@@ -11,7 +11,7 @@ namespace InventoryManagementSystemCMPG223
 {
 
 
-    public partial class Customers
+    public partial class Orders
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace InventoryManagementSystemCMPG223
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// SearchItem control.
+        /// sSearchItem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SearchItem;
+        protected global::System.Web.UI.WebControls.TextBox sSearchItem;
 
         /// <summary>
         /// SearchBtn control.
@@ -78,21 +78,21 @@ namespace InventoryManagementSystemCMPG223
         protected global::System.Web.UI.WebControls.HyperLink HyperLink8;
 
         /// <summary>
-        /// CustomerGridView control.
+        /// OrderGridView2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView CustomerGridView;
+        protected global::System.Web.UI.WebControls.GridView OrderGridView2;
 
         /// <summary>
-        /// FeedbackLbl control.
+        /// FeedbackLbl2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FeedbackLbl;
+        protected global::System.Web.UI.WebControls.Label FeedbackLbl2;
     }
 }

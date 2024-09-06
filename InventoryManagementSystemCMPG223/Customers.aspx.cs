@@ -45,9 +45,9 @@ namespace InventoryManagementSystemCMPG223
                 adapter.SelectCommand = cmd;
                 adapter.Fill(ds);
 
-                CustomerGridView.DataSource = ds;
+                CustomersGridView.DataSource = ds;
 
-                CustomerGridView.DataBind();
+                CustomersGridView.DataBind();
 
             }
             catch (SqlException ex)
@@ -83,9 +83,9 @@ namespace InventoryManagementSystemCMPG223
                 adapter.SelectCommand = cmd;
                 adapter.Fill(ds);
 
-               CustomerGridView.DataSource = ds;
+               CustomersGridView.DataSource = ds;
 
-                CustomerGridView.DataBind();
+                CustomersGridView.DataBind();
 
             }
             catch (SqlException ex)

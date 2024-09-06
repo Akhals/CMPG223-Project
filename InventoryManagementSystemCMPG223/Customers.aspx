@@ -46,6 +46,7 @@
                             <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Homepage.aspx">Dashboard</asp:HyperLink>
                         </div>
 
+  
 
 
 
@@ -55,8 +56,7 @@
                             <h1 id="productHeading">Customers</h1>
                         </div>
 
-                        <asp:GridView ID="CustomerGridView"  runat="server"></asp:GridView>
-
+                       <asp:GridView ID="CustomersGridView"  runat="server"></asp:GridView>
 
                     </td>
                     <td>&nbsp;</td>
